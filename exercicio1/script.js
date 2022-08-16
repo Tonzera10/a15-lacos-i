@@ -3,6 +3,6 @@ let conta = 0;
 
 while(coxinha==="S"){
     conta++
-    coxinha = prompt("Deseja comer mais uma coxinhas? 'S(sim)/N(não)'").toUpperCase();
+    coxinha = prompt("Deseja comer mais uma coxinhas? S(sim)/N(não)").toUpperCase();
 }
 console.log("O valor total é: R$ "+ conta*2.5)
